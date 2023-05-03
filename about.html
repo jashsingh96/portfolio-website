@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+
+
     <title> About Jash Singh </title>
 </head>
     <meta charset="UTF-8">
@@ -8,9 +19,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <header>
+
     <div>
     <img src= "img/smlogo.png" alt="Jash Singh" >
-    <nav>
+    <nav id="navStuff">
         <ul>
        <li><a href="#">Work</a>
         <li><a href="#">About</a></li>
@@ -23,12 +35,12 @@
     <body>
     
     <div>
-        <h1>About me</h1>
+        <h1>ABOUT ME</h1>
         <picture>
             <source srcset="img/Olive/smjash.png" media="(max-width:767px)">
             <img src="img/Olive/lgjash.png" alt="My Image">
           </picture>
-        <p> Hi there! My name is Jash Singh, and I'm a UX designer that is starting out in the field.
+        <p id="aboutMe"> Hi there! My name is Jash Singh, and I'm a UX designer that is starting out in the field.
             I'm passionate about creating beautiful user-centered designs that help businesses achieve
             their goals and improve the lives of their customers.
             My educational background is in Psychology and Chemistry. My professional experience lies in
@@ -52,7 +64,7 @@
 
     <div>
         <h2> Check out my resume!</h2>
-        <a href="files/2023 Resume.pdf" target="_blank">Resume</a>
+        <a href="files/2023 Resume.pdf" class="button" target="_blank">View CV</a>
     </div>
    
     <div>
@@ -72,11 +84,11 @@
             If you're looking for someone to help your business in a UX project, dont hesitate to reach out!
 </p>
 <div>
-  <a href="mailto:jashdhaliwal96@gmail.com">Email me</a>
+  <a href="mailto:jashdhaliwal96@gmail.com" id="contact">  Email me</a>
   <div>
     <!--Social Media Layout and Placeholders-->
     <a href="https://www.linkedin.com/in/jash-singh-75358b222/" target="_blank">
-        <img src="img/iconmonstr-linkedin-3.svg">
+        <img class="img linkedIn" src="img/iconmonstr-linkedin-3.svg">
     </a>
     </div>
     <p> Copyright Jash Singh 2023
