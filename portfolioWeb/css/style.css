@@ -1,0 +1,119 @@
+
+
+body {
+    background-color: #DEF2F1;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px; 
+    font-weight: 300; 
+    line-height: 1.6; 
+    color: #363636;
+  }
+  
+  h1, h2, h3, h4 {
+    line-height: 1.4;
+  }
+  h1 {
+    background-color: #445F5E;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 2.75em;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  h2 {
+    background-color: #445F5E;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 2.75em;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  h3 {
+    font-size: 1.75em;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 400;
+  }
+  h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+  }
+
+  .button {
+    display: inline-block; 
+    background-color: #3AAFA9;
+    color: #363636; 
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    border: 2px solid #363636;
+    border-radius: 3px;
+    transition: 0.2s opacity;
+
+  }
+
+  .button:hover {
+    opacity: 0.8; 
+    text-decoration: none;
+  }
+
+  #contact {
+    padding: 10px;
+    background-color:#363636;
+    color:#3AAFA9;
+    text-transform: uppercase;
+    border: 2px solid #3AAFA9;
+    border-radius: 3px;
+
+  }
+  #contact:hover {
+    opacity: 0.8; 
+    text-decoration: none;
+  }
+
+  #readMore{
+    display: inline-block; 
+    background-color: #52e6de;
+    color: #363636; 
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    border: 2px solid #363636;
+    border-radius: 3px;
+    transition: 0.2s opacity;
+  }
+  #welcome{
+    background-color: #DEF2F1;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px; 
+    font-weight: 300; 
+    line-height: 1.6; 
+    color: #363636;
+  }
+
+  img {
+      width: 100%;
+    
+  }
+  img.linkedIn{
+      padding: 10px;
+      border-radius: 5px;
+      max-width: 50px;
+  }
+
+  #navStuff{
+    display: inline-block; 
+    background-color: #ffffff;
+    color: #52e6de; 
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  #aboutMe{
+    background-color: #4ab1b1;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px; 
+    font-weight: 300; 
+    line-height: 1.6; 
+    color: #363636;
+  }
