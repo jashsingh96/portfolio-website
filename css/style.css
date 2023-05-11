@@ -594,6 +594,28 @@ header {
   animation-timing-function: linear;
 }
 
+.header-right,
+.header-right.responsive {
+  position: relative;
+}
+
+.header-right.responsive li {
+  display: block;
+}
+
+.header-right.responsive nav {
+  padding: 24px 0 0;
+}
+.header-right.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.header-right.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 @keyframes color-change {
   0% {
     fill: #ffffff;
@@ -603,11 +625,3 @@ header {
   }
 }
 
-.header-right,
-.header-right.responsive {
-  position: relative;
-}
-
-.navtoggle.responsive li {
-  display: block;
-}
