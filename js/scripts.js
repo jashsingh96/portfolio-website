@@ -1,2 +1,4 @@
-console.log("Hello! Welcome to my portfolio website!");
-
+function menuToggle() {
+    var x = document.getElementById('headerright');
+    x.className += ' responsive';
+  }
