@@ -149,6 +149,7 @@ h4 {
   color: #363636;
   text-align: center;
   margin: 80px;
+  
 }
 
 @media (min-width: 640px) {
@@ -445,6 +446,7 @@ img.myphoto {
     flex-basis: 45%;
   }
 
+  
 /* nav > ul {
     list-style-type: none;
     padding: 0;
@@ -635,4 +637,3 @@ header {
     fill: #004b5f;
   }
 }
-
